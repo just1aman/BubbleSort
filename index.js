@@ -2,7 +2,7 @@ function bubblesort(array)
 {
    for(j=1;j<array.length;j++)
   {
-    for(i=0;i<array.length-j;i++)
+    for(i=0;i<array.length;i++)
   {
     
       if(array[i]>array[i+1])
@@ -18,5 +18,5 @@ function bubblesort(array)
   return array
 }
 
-let randomArray=[11,4,12,7,5,9,0]
+let randomArray=[11,4,12,71,5,9,0]
 bubblesort(randomArray)
